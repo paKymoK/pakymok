@@ -1,5 +1,6 @@
 <template>
   <div class="about">
-    <h1>This is an about page</h1>
+    <h1>Hello, This page is currently in Development</h1>
+    <h2>Powered by ꘝꗇꖦꗱ ꘝꗇꖦꗱ ꖀꖾꕯꖹ ꖀꖾꕯꖹ</h2>
   </div>
 </template>
