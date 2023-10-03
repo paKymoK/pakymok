@@ -1,0 +1,13 @@
+@font-face {
+  font-family: "AegirSeaborn";
+  src: local("AegirSeaborn"), url("../../../public/fonts/AegirSeaborn.ttf"),
+    format("truetype");
+}
+
+html, body {
+  font-family: 'AegirSeaborn', sans-serif;
+}
+
+#app {
+  font-family: 'AegirSeaborn', sans-serif;
+}
