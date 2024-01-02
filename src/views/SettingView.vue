@@ -4,3 +4,18 @@
     <h2>Powered by ꘝꗇꖦꗱ ꘝꗇꖦꗱ ꖀꖾꕯꖹ ꖀꖾꕯꖹ</h2>
   </div>
 </template>
+
+<script>
+export default {
+  data() {
+    return {
+      text: "",
+    };
+  },
+  methods: {
+    updateMessage() {
+      console.log(this.text);
+    },
+  },
+};
+</script>
