@@ -6,21 +6,38 @@ const routes = [
     path: "/",
     name: "home",
     component: HomeView,
+    meta: {
+      title: "Home", // <-- Find how to insert :userId into page title
+    },
   },
   {
     path: "/setting",
     name: "setting",
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
-    component: () =>
-      import(/* webpackChunkName: "about" */ "../views/SettingView.vue"),
+    component: () => import("../views/SettingView.vue"),
+    meta: {
+      title: "Setting", // <-- Find how to insert :userId into page title
+    },
+  },
+  {
+    path: "/stat",
+    name: "stat",
+    component: () => import("../views/StatView.vue"),
+    meta: {
+      title: "Stat", // <-- Find how to insert :userId into page title
+    },
   },
 ];
 
 const router = createRouter({
   history: createWebHashHistory(),
   routes,
+});
+
+router.beforeEach((toRoute, fromRoute, next) => {
+  window.document.title =
+    toRoute.meta && toRoute.meta.title ? toRoute.meta.title : "Home";
+
+  next();
 });
 
 export default router;

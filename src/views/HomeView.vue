@@ -1,6 +1,7 @@
 <template>
   <div class="home">
-    <HelloWorld msg="DM Giỏi" />
+    {{ $t("message.hello", { msg: "hello" }) }}
+    <HelloWorld :msg="welcomeMessage" />
   </div>
 </template>
 
@@ -14,6 +15,7 @@ export default {
   data() {
     return {
       users: userData,
+      welcomeMessage: this.$t("message.hello"),
     };
   },
   components: {
