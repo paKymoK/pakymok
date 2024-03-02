@@ -2,17 +2,21 @@
   "name": "pakymok",
   "version": "1.0.0",
   "description": "<!--\r **paKymoK/pakymok** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.",
-  "main": "index.js",
+  "author": "",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
     "deploy": "gcloud app deploy"
   },
+  "main": "index.js",
   "dependencies": {
+    "autoprefixer": "^10",
     "core-js": "^3.8.3",
     "highcharts": "^11.2.0",
     "highcharts-vue": "^1.4.3",
+    "postcss": "^8",
+    "tailwindcss": "^3",
     "vue": "^3.2.13",
     "vue-i18n": "^9.8.0",
     "vue-router": "^4.0.3"
@@ -28,8 +32,8 @@
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-vue": "^8.0.3",
-    "prettier": "^2.4.1"
+    "prettier": "^2.4.1",
+    "vue-cli-plugin-tailwind": "~3.0.0"
   },
-  "author": "",
   "license": "ISC"
 }

@@ -7,7 +7,7 @@ const routes = [
     name: "home",
     component: HomeView,
     meta: {
-      title: "Home", // <-- Find how to insert :userId into page title
+      title: "TakyPok", // <-- Find how to insert :userId into page title
     },
   },
   {
@@ -16,6 +16,14 @@ const routes = [
     component: () => import("../views/SettingView.vue"),
     meta: {
       title: "Setting", // <-- Find how to insert :userId into page title
+    },
+  },
+  {
+    path: "/about",
+    name: "about",
+    component: () => import("../views/AboutView.vue"),
+    meta: {
+      title: "About Me!", // <-- Find how to insert :userId into page title
     },
   },
   {
