@@ -13,7 +13,7 @@
 - 🔭 I’m currently doing something that even i don't know :grin:
 - 🌱 I’m currently learning AWS.
 - 👯 I’m looking to collaborate with other Developers :wink:
-- 🥅 2023 Goals: Have some job to do
+- 🥅 2024 Goals: Have some job to do
 - 💬 Ask me about anything, I am happy to help :smile:
 - ⚡ Fun fact: I love connecting with different people :raised_hands:
 
